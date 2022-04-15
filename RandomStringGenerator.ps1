@@ -1,5 +1,5 @@
 function Get-RandomCharacters {
-	[CmdletBinding()]
+    [CmdletBinding()]
     Param(
         [Parameter(Mandatory=$true)] [String] $length,
         [Parameter(Mandatory=$true)] [String] $characters
